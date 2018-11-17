@@ -1,0 +1,25 @@
+.bt-position {
+    position: relative;
+    font-style: italic;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+}
+
+.bt-position:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+}
+
+h4:after {
+    content: "";
+    position: absolute;
+    margin-top: 40px;
+    left: 15px;
+    width: 50px;
+    height: 2px;
+}
